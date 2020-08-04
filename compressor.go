@@ -1,4 +1,4 @@
-package main
+package gompressors
 
 type Compressor interface {
 	Compress([]byte) ([]byte, error)
